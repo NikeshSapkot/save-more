@@ -1,12 +1,53 @@
-# React + Vite
+# 🍽️ SaveThePlate - Food Rescue App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://save-more.netlify.app/
 
-Currently, two official plugins are available:
+A platform connecting restaurants with surplus food to volunteers who can redistribute it to communities in need, reducing food waste and hunger.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Restaurant Dashboard**:
+  - Add surplus food listings with expiry dates
+  - Track scheduled pickups
+- **Volunteer Portal**:
+  - Browse available food listings
+  - Reserve pickups
+- **Real-time Updates**:
+  - Instant notifications for new listings
+- **Impact Tracking**:
+  - Meals saved metrics
+  - CO2 reduction calculations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+Access the deployed app:  
+👉 [https://savetheplate.netlify.app](https://save-more.netlify.app/)
+
+## 🛠️ Tech Stack
+
+**Frontend**:
+- React + Vite
+- Tailwind CSS
+- Framer Motion (animations)
+
+**Backend**:
+- Firebase (Authentication, Firestore)
+- Netlify Functions
+
+## 🧑‍💻 Development Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/savetheplate.git
+   cd savetheplate
+
+🤝 How to Contribute
+Fork the project
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some amazing feature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
